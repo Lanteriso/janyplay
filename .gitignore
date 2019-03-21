@@ -1,2 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-/upload/
+venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
+getting-started/*
