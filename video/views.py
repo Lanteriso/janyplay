@@ -35,7 +35,7 @@ class IndexView(generic.ListView):
     model = Video
     template_name = 'video/index.html'
     context_object_name = 'video_list'
-    paginate_by = 4
+    paginate_by = 12
     ordering = ['-create_time']
 
     def get_context_data(self, *, object_list=None, **kwargs):
