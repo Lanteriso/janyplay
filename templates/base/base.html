@@ -19,7 +19,7 @@
 </div>
 {% include "base/footer.html" %}
 
-<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
 <script src="{% static 'css/Semantic-UI-CSS/semantic.js' %}"></script>
 <script>
     var search_url = "{% url 'video:search_result' %}"
